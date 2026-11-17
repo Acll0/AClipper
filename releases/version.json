@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.0",
   "notes": "Релиз AClipper v1.0.0: Автоматический поиск вирусных моментов через Faster-Whisper, караоке-субтитры, поддержка длинных стримов (12+ часов), наложение HUD-баннеров, монтаж Shorts/Reels/TikTok.",
   "download_url": "https://github.com/Acll0/AClipper/releases/download/v1.0.0/AClipper_Setup.exe"
 }
