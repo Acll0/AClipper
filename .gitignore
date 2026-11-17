@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.spec
+
+# Build & Dist
+build/
+dist/
+dist_package/
+dist_release/
+dist_final/
+dist_final_v2/
+obf_build/
+installer/*.exe
+!installer/AClipper_Setup_stub.exe
+
+# Binaries & Models (Heavy files, served via Releases)
+ffmpeg.exe
+ffprobe.exe
+yt-dlp.exe
+Uninstall.exe
+models/
+*.zip
+
+# App working directories & logs
+*.log
+temp/
+streamers/
+.cache/
+.vscode/
+.idea/
+venv/
+.venv/
+env/
