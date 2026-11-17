@@ -1,4 +1,4 @@
-# 🎬 AClipper — Автоматический AI-комбайн для нарезки клипов и стримов
+# 🎬 AClipper — Программа которая автоматизирует нарезку стримов на клипы!
 
 <p align="center">
   <img src="icon.png" width="128" height="128" alt="AClipper Logo" />
