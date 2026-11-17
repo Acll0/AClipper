@@ -1,4 +1,4 @@
-# 🎬 AClipper — Программа для автоматической нарезки стримов на клипы в формат (Reels/TikTok/Shorts)
+# 🎬 AClipper — Программа для автоматической нарезки стримов на клипы в формат (Reels/TikTok/Shorts/VK clips)
 
 <p align="center">
   <img src="icon.png" width="128" height="128" alt="AClipper Logo" />
