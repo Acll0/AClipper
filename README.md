@@ -11,12 +11,8 @@
 
 <p align="center">
   <a href="https://drive.google.com/file/d/19GW9pxFEvAYZE_shN4vMmvtwKtdxCs9c/view?usp=sharing">
-    <img src="https://img.shields.io/badge/📥_Скачать_AClipper_для_Windows-2ea44f?style=for-the-badge&logo=windows&logoColor=white" alt="Скачать AClipper для Windows" height="48" />
+    <img src="https://img.shields.io/badge/📥_Скачать_AClipper_для_Windows-2ea44f?style=for-the-badge&logo=windows&logoColor=white" alt="Скачать AClipper для Windows" height="45" />
   </a>
-</p>
-
-<p align="center">
-  <i>Прямая загрузка: <b><a href="https://drive.google.com/file/d/19GW9pxFEvAYZE_shN4vMmvtwKtdxCs9c/view?usp=sharing">AClipper_Setup.exe (Google Диск)</a></b></i>
 </p>
 
 ---
@@ -73,14 +69,8 @@
 
 ## 🚀 Установка
 
-<p align="left">
-  <a href="https://drive.google.com/file/d/19GW9pxFEvAYZE_shN4vMmvtwKtdxCs9c/view?usp=sharing">
-    <img src="https://img.shields.io/badge/📥_Скачать_AClipper_Setup.exe-2ea44f?style=for-the-badge&logo=windows&logoColor=white" alt="Скачать AClipper_Setup.exe" height="42" />
-  </a>
-</p>
-
-1. Скачайте последнюю версию инсталлятора: 📥 [**AClipper_Setup.exe (Google Диск)**](https://drive.google.com/file/d/19GW9pxFEvAYZE_shN4vMmvtwKtdxCs9c/view?usp=sharing) или перейдите во вкладку [**Releases**](https://github.com/Acll0/AClipper/releases).
-2. Запустите скачанный файл и следуйте простым инструкциям установщика.
+1. Скачайте установщик: 📥 [**AClipper_Setup.exe (Google Диск)**](https://drive.google.com/file/d/19GW9pxFEvAYZE_shN4vMmvtwKtdxCs9c/view?usp=sharing) (или во вкладке [**Releases**](https://github.com/Acll0/AClipper/releases)).
+2. Запустите файл и следуйте простым инструкциям мастера установки.
 3. Программа автоматически установится и создаст ярлык на рабочем столе.
 
 ---
@@ -95,7 +85,7 @@
 
 <p align="center">
   <a href="https://drive.google.com/file/d/19GW9pxFEvAYZE_shN4vMmvtwKtdxCs9c/view?usp=sharing">
-    <img src="https://img.shields.io/badge/📥_Скачать_AClipper_для_Windows-2ea44f?style=for-the-badge&logo=windows&logoColor=white" alt="Скачать AClipper для Windows" height="48" />
+    <img src="https://img.shields.io/badge/📥_Скачать_AClipper_для_Windows-2ea44f?style=for-the-badge&logo=windows&logoColor=white" alt="Скачать AClipper для Windows" height="45" />
   </a>
 </p>
 
