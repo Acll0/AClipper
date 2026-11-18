@@ -9,11 +9,9 @@
   Автоматически находит хайлайты, генерирует караоке-субтитры и монтирует вертикальные клипы (9:16) для <b>TikTok</b>, <b>YouTube Shorts</b>, <b>Instagram Reels</b> и <b>VK Клипы</b>.
 </p>
 
-<p align="center">
-  <a href="https://drive.google.com/file/d/19GW9pxFEvAYZE_shN4vMmvtwKtdxCs9c/view?usp=sharing">
-    <img src="https://img.shields.io/badge/📥_Скачать_AClipper_для_Windows-2ea44f?style=for-the-badge&logo=windows&logoColor=white" alt="Скачать AClipper для Windows" height="45" />
-  </a>
-</p>
+<h3 align="center">
+  📥 <a href="https://drive.google.com/file/d/19GW9pxFEvAYZE_shN4vMmvtwKtdxCs9c/view?usp=sharing">Скачать AClipper для Windows (Google Диск)</a>
+</h3>
 
 ---
 
@@ -82,12 +80,6 @@
 - Исполняемые модули защищены и оптимизированы для стабильной работы.
 
 ---
-
-<p align="center">
-  <a href="https://drive.google.com/file/d/19GW9pxFEvAYZE_shN4vMmvtwKtdxCs9c/view?usp=sharing">
-    <img src="https://img.shields.io/badge/📥_Скачать_AClipper_для_Windows-2ea44f?style=for-the-badge&logo=windows&logoColor=white" alt="Скачать AClipper для Windows" height="45" />
-  </a>
-</p>
 
 <p align="center">
   Разработано с ❤️ командой AClipper
