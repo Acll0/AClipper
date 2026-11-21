@@ -82,5 +82,5 @@
 ---
 
 <p align="center">
-  Разработано с ❤️ командой AClipper
+  Разработано с ❤️ AClipper
 </p>
