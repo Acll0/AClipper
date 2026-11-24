@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "title": "Сбор",
+  "goal_desc": "На новый телеофон",
+  "current": 500,
+  "target": 30000,
+  "currency": "₽",
+  "url": "https://www.donationalerts.com/r/acll0"
+}
