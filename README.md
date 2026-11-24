@@ -1,4 +1,4 @@
-# 🎬 AClipper — Автоматическая нарезка стримов на клипы!
+# 🎬 AClipper — Auto-Clipper!
 
 <p align="center">
   <img src="icon.png" width="128" height="128" alt="AClipper Logo" />
