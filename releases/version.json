@@ -1,5 +1,11 @@
 {
-  "version": "1.0.2",
-  "notes": "Обновиться автоматически не получится:  нужно скачать новый установщик (setup). Обновление 1.0.2 слишком масштабное, а автоапдейтер в 1.0.1 предназначался только для мелких правок. https://github.com/Acll0/AClipper",
-  "download_url": "false"
+  "version": "1.0.3",
+  "notes": "Исправлен сбой CUBLAS_STATUS_NOT_SUPPORTED на RTX 5060/5070/50xx и GTX, исправлена разметка вебки для 480p/720p/2K/21:9/4:3, добавлена кнопка «Пауза» при обработке видео.",
+  "sha256": "630d83818e1dc7282f4b162a351918658ecfdbfe61b79cce64eaa08eaf747c3a",
+  "size_bytes": 12482942,
+  "clean_dirs": [
+    "_internal/_vlt"
+  ],
+  "min_patch_version": "1.0.2",
+  "download_url": "https://github.com/Acll0/AClipper/releases/download/v1.0.3/AClipper_Update_v1.0.3.zip"
 }
