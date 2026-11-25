@@ -16,7 +16,7 @@
       "filename": "AClipper_Update_v1.0.5.zip",
       "sha256": "720cd5d0f7c68cfce11aec52cc114c26155912ef67991d5f644fc77909a27f5c",
       "size_bytes": 12492016,
-      "url": "https://github.com/Acll0/AClipper/releases/download/v1.0.5/AClipper_Update_v1.0.5.zip"
+      "url": "https://github.com/Acll0/AClipper/releases/download/untagged-08a242013cc792eab2d5/AClipper_Update_v1.0.5.zip"
     },
     {
       "id": "ffmpeg_compat",
@@ -27,7 +27,7 @@
       "filename": "AClipper_FFmpeg_v7.1.zip",
       "sha256": "183cbdc6275e4f66ce8019de3a79cd7a3cdce28c2fdbf13dfc61223d953bcda5",
       "size_bytes": 62382694,
-      "url": "https://github.com/Acll0/AClipper/releases/download/v1.0.5/AClipper_FFmpeg_v7.1.zip"
+      "url": "https://github.com/Acll0/AClipper/releases/download/untagged-08a242013cc792eab2d5/AClipper_FFmpeg_v7.1.zip"
     }
   ]
 }
