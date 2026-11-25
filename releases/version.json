@@ -1,11 +1,22 @@
 {
-  "version": "1.0.3",
-  "notes": "Исправлен сбой CUBLAS_STATUS_NOT_SUPPORTED на RTX 5060/5070/50xx и GTX, исправлена разметка вебки для 480p/720p/2K/21:9/4:3, добавлена кнопка «Пауза» при обработке видео. (Если у вас v1.0.1 — для новых ИИ-моделей эмоций и автокропа также установите полный Setup v1.0.2 с GitHub Releases.) https://github.com/Acll0/AClipper",
-  "sha256": "630d83818e1dc7282f4b162a351918658ecfdbfe61b79cce64eaa08eaf747c3a",
-  "size_bytes": 12482942,
+  "version": "1.0.4",
+  "notes": "Исправлено зависание на 5% на YouTube (защита метаданных и ошибок HTTP 403, подсказки по VPN/прокси), улучшен парсер таймкодов JSON (тире –, скобки [...], start/end) и защита HLS-скачивания на Twitch от одинаковых/немых клипов.",
+  "min_patch_version": "1.0.2",
+  "release_page_url": "https://github.com/Acll0/AClipper/releases",
   "clean_dirs": [
     "_internal/_vlt"
   ],
-  "min_patch_version": "1.0.2",
-  "download_url": "https://github.com/Acll0/AClipper/releases/download/v1.0.3/AClipper_Update_v1.0.3.zip"
+  "packages": [
+    {
+      "id": "core",
+      "name": "Обновление кода AClipper v1.0.4",
+      "clean_dirs": [
+        "_internal/_vlt"
+      ],
+      "filename": "AClipper_Update_v1.0.4.zip",
+      "sha256": "62214fa17dbbf22fec4f95044879199e40ce5d50ea7f2f8e960bad059f1405e3",
+      "size_bytes": 12488726,
+      "url": "https://github.com/Acll0/AClipper/releases/download/v1.0.4/AClipper_Update_v1.0.4.zip"
+    }
+  ]
 }
