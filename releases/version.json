@@ -1,6 +1,6 @@
 {
-  "version": "1.0.4",
-  "notes": "Исправлено зависание на 5% на YouTube (защита метаданных и ошибок HTTP 403, подсказки по VPN/прокси), улучшен парсер таймкодов JSON (тире –, скобки [...], start/end) и защита HLS-скачивания на Twitch от одинаковых/немых клипов.",
+  "version": "1.0.5",
+  "notes": "Заменён FFmpeg на совместимый 7.1 (работает GPU-рендер NVENC на GTX 10xx / 16xx / RTX 20–50xx без требования драйвера 610+), добавлено GPU-ускорение для вырезки тишины и трима, пониженный приоритет CPU при откате. Включает все исправления v1.0.3–v1.0.4.",
   "min_patch_version": "1.0.2",
   "release_page_url": "https://github.com/Acll0/AClipper/releases",
   "clean_dirs": [
@@ -9,14 +9,25 @@
   "packages": [
     {
       "id": "core",
-      "name": "Обновление кода AClipper v1.0.4",
+      "name": "Обновление кода AClipper v1.0.5",
       "clean_dirs": [
         "_internal/_vlt"
       ],
-      "filename": "AClipper_Update_v1.0.4.zip",
-      "sha256": "62214fa17dbbf22fec4f95044879199e40ce5d50ea7f2f8e960bad059f1405e3",
-      "size_bytes": 12488726,
-      "url": "https://github.com/Acll0/AClipper/releases/download/v1.0.4/AClipper_Update_v1.0.4.zip"
+      "filename": "AClipper_Update_v1.0.5.zip",
+      "sha256": "720cd5d0f7c68cfce11aec52cc114c26155912ef67991d5f644fc77909a27f5c",
+      "size_bytes": 12492016,
+      "url": "https://github.com/Acll0/AClipper/releases/download/v1.0.5/AClipper_Update_v1.0.5.zip"
+    },
+    {
+      "id": "ffmpeg_compat",
+      "name": "Совместимый FFmpeg 7.1 (GPU NVENC для GTX 10xx / RTX)",
+      "check_path": "ffmpeg.exe",
+      "min_size_bytes": 87638016,
+      "check_sha256": "2ce797a0f88d7f067180338fb227f7b1928ea727bd9a4d7a1d022f7c52af71a3",
+      "filename": "AClipper_FFmpeg_v7.1.zip",
+      "sha256": "183cbdc6275e4f66ce8019de3a79cd7a3cdce28c2fdbf13dfc61223d953bcda5",
+      "size_bytes": 62382694,
+      "url": "https://github.com/Acll0/AClipper/releases/download/v1.0.5/AClipper_FFmpeg_v7.1.zip"
     }
   ]
 }
