@@ -1,6 +1,6 @@
 {
-  "version": "1.0.7.1",
-  "notes": "Удобный ввод таймкодов Ч / М / С без двоеточий с автопереходом, разблокировка полей при «Стоп» и ускоренное скачивание полного аудио с локальной обрезкой участка. Настройка минимальной длины пауз (с адаптивным порогом на громком фоне), фоновая музыка с автонормализацией -18 дБ (+/- регулировка) и индивидуальное кадрирование на каждый отрезок ролика («Разбить» / «Лево» / «Центр» / «Право» / «Только лицо»). Ускоренный выход из зацикленного EOF-реконнекта FFmpeg с откатом на HTTP без keep-alive и улучшенная сохранность координат веб-камеры. Включает все обновления из патчей v1.0.3–v1.0.6 и совместимый FFmpeg 7.1 (NVENC GTX 10xx / RTX).",
+  "version": "1.0.7.2",
+  "notes": "bugfix",
   "min_patch_version": "1.0.2",
   "release_page_url": "https://github.com/Acll0/AClipper/releases",
   "clean_dirs": [
@@ -9,14 +9,14 @@
   "packages": [
     {
       "id": "core",
-      "name": "Обновление кода AClipper v1.0.7.1",
+      "name": "Обновление кода AClipper v1.0.7.2",
       "clean_dirs": [
         "_internal/_vlt"
       ],
-      "filename": "AClipper_Update_v1.0.7.1.zip",
+      "filename": "AClipper_Update_v1.0.7.2.zip",
       "sha256": "fbfed298b4bb5bca3e8b023aa6a54161195e7ed1c35694caf1a1328287ba5026",
       "size_bytes": 12759773,
-      "url": "https://github.com/Acll0/AClipper/releases/download/v1.0.7.1/AClipper_Update_v1.0.7.1.zip"
+      "url": "https://github.com/Acll0/AClipper/releases/download/v1.0.7.2/AClipper_Update_v1.0.7.2.zip"
     },
     {
       "id": "ffmpeg_compat",
