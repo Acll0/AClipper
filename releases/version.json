@@ -1,6 +1,6 @@
 {
-  "version": "1.0.6",
-  "notes": "Улучшено скачивание Twitch/HLS (requests-клиент вместо urllib против SSL-обрывов, автопереключение при -10054/keepalive-зависаниях и безопасный watchdog). Улучшено запикивание мата: выбор силы (Точно / Мягко / Жёстко) и звука (Тишина / Приглушение / Бип 1000 Гц), убран лишний +0.20с хвост и ложные срабатывания. Включает все исправления и совместимый FFmpeg 7.1 из v1.0.3–v1.0.5.",
+  "version": "1.0.7",
+  "notes": "Удобный ввод таймкодов Ч / М / С без двоеточий с автопереходом, разблокировка полей при «Стоп» и ускоренное скачивание полного аудио с локальной обрезкой участка. Настройка минимальной длины пауз (с адаптивным порогом на громком фоне), фоновая музыка с автонормализацией -18 дБ (+/- регулировка) и индивидуальное кадрирование на каждый отрезок ролика («Разбить» / «Лево» / «Центр» / «Право» / «Только лицо»). Ускоренный выход из зацикленного EOF-реконнекта FFmpeg с откатом на HTTP без keep-alive и улучшенная сохранность координат веб-камеры. Включает все обновления из патчей v1.0.3–v1.0.6 и совместимый FFmpeg 7.1 (NVENC GTX 10xx / RTX).",
   "min_patch_version": "1.0.2",
   "release_page_url": "https://github.com/Acll0/AClipper/releases",
   "clean_dirs": [
@@ -9,14 +9,14 @@
   "packages": [
     {
       "id": "core",
-      "name": "Обновление кода AClipper v1.0.6",
+      "name": "Обновление кода AClipper v1.0.7",
       "clean_dirs": [
         "_internal/_vlt"
       ],
-      "filename": "AClipper_Update_v1.0.6.zip",
-      "sha256": "12ebe465dab25a357a24b5d7791b4e4c44bb3908c873e1dc8b3ecfcf4d0b6e70",
-      "size_bytes": 12497556,
-      "url": "https://github.com/Acll0/AClipper/releases/download/v1.0.6/AClipper_Update_v1.0.6.zip"
+      "filename": "AClipper_Update_v1.0.7.zip",
+      "sha256": "50368310284c4d5441592a78e5e344e9fa6a14f50d005b4bcc246092f2f7c7af",
+      "size_bytes": 12759773,
+      "url": "https://github.com/Acll0/AClipper/releases/download/v1.0.7/AClipper_Update_v1.0.7.zip"
     },
     {
       "id": "ffmpeg_compat",
@@ -27,7 +27,7 @@
       "filename": "AClipper_FFmpeg_v7.1.zip",
       "sha256": "183cbdc6275e4f66ce8019de3a79cd7a3cdce28c2fdbf13dfc61223d953bcda5",
       "size_bytes": 62382694,
-      "url": "https://github.com/Acll0/AClipper/releases/download/v1.0.6/AClipper_FFmpeg_v7.1.zip"
+      "url": "https://github.com/Acll0/AClipper/releases/download/v1.0.7/AClipper_FFmpeg_v7.1.zip"
     }
   ]
 }
