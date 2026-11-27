@@ -1,6 +1,6 @@
 {
-  "version": "1.0.7.4",
-  "notes": "UPDATE v1.0.7.4: 1) YouTube без ошибки 403: встроен JS-движок Deno (автоматически докачивается и проверяется как FFmpeg — если уже установлен, пропускается), обновлён конвейер скачивания/нарезки через yt-dlp --impersonate Chrome + --js-runtimes и локальный прокси с авто-обновлением протухших URL при предпросмотре. 2) Точная настройка / Обрезка: добавлен быстрый поиск моментов прямо в окне обрезки, точная докачка/дорезка добавленных секунд по таймкодам как из YouTube/VOD, так и из локальных видеофайлов. 3) Залипательная добавка теперь работает во всех форматах видео (в том числе 16:9 / 1:1 / 4:5 без обрезки боков фильма), а на 2-й вкладке и в окне нарезки добавлен переключатель положения «⬇️ Снизу / ⬆️ Сверху». 4) Вкладка «3. Предпросмотр»: исправлен звук в плеере (авто-привязка активного аудиовыхода Qt), добавлены кнопка звука 🔊/🔇 и регулятор громкости; со 2-й вкладки убрана кнопка «Тест #1». 5) Улучшена цензура русских матов и откалиброван размер караоке-субтитров под реальный предпросмотр в редакторе.",
+  "version": "1.0.7.5",
+  "notes": "UPDATE v1.0.7.5: 1) Исправление YouTube HTTP 403 / 360p и работы через прокси: обновлён yt-dlp (2026.11.23) с автоматической проверкой и докачкой как FFmpeg/Deno, убран принудительный android_vr (YouTube снова отдаёт HD 1080p и HLS), увеличены таймауты прокси-моста и добавлен прямой переход в нативную загрузку yt-dlp (curl_cffi) при обрывах TLS через httpproxy. 2) Убрана нестабильная докачка интервалов из окна «Точная настройка» (исключён краш при закрытии диалога), при этом «🔍 Поиск по стриму» сохранён для быстрого перехода к нужному клипу и копирования таймкодов.",
   "min_patch_version": "1.0.2",
   "release_page_url": "https://github.com/Acll0/AClipper/releases",
   "clean_dirs": [
@@ -9,14 +9,14 @@
   "packages": [
     {
       "id": "core",
-      "name": "Обновление кода AClipper v1.0.7.4",
+      "name": "Обновление кода AClipper v1.0.7.5",
       "clean_dirs": [
         "_internal/_vlt"
       ],
-      "filename": "AClipper_Update_v1.0.7.4.zip",
-      "sha256": "80869142409e80d3c781ea4ad7c1184a93a059c2e94523fcdcd5261ad7b692ab",
-      "size_bytes": 12732029,
-      "url": "https://github.com/Acll0/AClipper/releases/download/v1.0.7.4/AClipper_Update_v1.0.7.4.zip"
+      "filename": "AClipper_Update_v1.0.7.5.zip",
+      "sha256": "1917da35a610141e7dcbfbd7f5af8827607e35de63eef6b1847e3766aff01e2e",
+      "size_bytes": 12727346,
+      "url": "https://github.com/Acll0/AClipper/releases/download/v1.0.7.5/AClipper_Update_v1.0.7.5.zip"
     },
     {
       "id": "ffmpeg_compat",
@@ -39,6 +39,17 @@
       "sha256": "83f03b98d6095d8ed374ae53f82f427ce64c6ffd7012e53bdd03ece509839a91",
       "size_bytes": 41819916,
       "url": "https://github.com/Acll0/AClipper/releases/download/v1.0.7.4/AClipper_Deno_Runtime.zip"
+    },
+    {
+      "id": "ytdlp_bin",
+      "name": "Актуальный движок yt-dlp (поддержка нового плеера YouTube)",
+      "check_path": "yt-dlp.exe",
+      "min_size_bytes": 23627865,
+      "check_sha256": "622ed48023cac1daa52a3bf3a6ac38f03514de214b5f0fa069389fd0f6d17e5c",
+      "filename": "AClipper_YtDlp_Runtime.zip",
+      "sha256": "9006dbfe490e3f7535f2b9413f721cf5ef593d3f9143367e69f9eac845167dde",
+      "size_bytes": 23389918,
+      "url": "https://github.com/Acll0/AClipper/releases/download/v1.0.7.5/AClipper_YtDlp_Runtime.zip"
     }
   ]
 }
